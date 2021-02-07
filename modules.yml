@@ -1,0 +1,8 @@
+---
+modules:
+  - name: 'IS110'
+    description: 'Information Systems and Innovation introduces students to the art and science of management and innovation from the perspective of a business-IT professional. The course provides an overview of fundamental business concepts with an emphasis on the challenges of managing the integration of business and technology. Through peer-led case discussions, lectures on IT and Innovation topics, in-class activities, students develop a concrete understanding of how information systems and innovation can be used to solve real-world problems and create business value in a variety of industry settings. Core concepts are reinforced through individual and team-based assignments that emphasize independent exploration, knowledge synthesis and critical reflection.'
+    school: 'SCIS'
+  - name: 'IS111'
+    description: 'In this course students acquire foundational computer programming concepts and skills through Python, a widely-used programming language. Upon successful completion of this course, the students will understand and be able to appropriately apply fundamental programming concepts including variables, functions, parameters, loops and conditions as well as basic data structures including arrays (lists in Python) and hash tables (dictionaries in Python) in simple applications.'
+    school: 'SCIS'
