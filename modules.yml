@@ -2,9 +2,69 @@
 modules:
   IS110:
     name: 'Information Systems and Innovation'
-    description: 'Information Systems and Innovation introduces students to the art and science of management and innovation from the perspective of a business-IT professional. The course provides an overview of fundamental business concepts with an emphasis on the challenges of managing the integration of business and technology. Through peer-led case discussions, lectures on IT and Innovation topics, in-class activities, students develop a concrete understanding of how information systems and innovation can be used to solve real-world problems and create business value in a variety of industry settings. Core concepts are reinforced through individual and team-based assignments that emphasize independent exploration, knowledge synthesis and critical reflection.'
+    description: |
+      Information Systems and Innovation introduces students to the art and science of management and innovation from the perspective of a business-IT professional. The course provides an overview of fundamental business concepts with an emphasis on the challenges of managing the integration of business and technology. Through peer-led case discussions, lectures on IT and Innovation topics, in-class activities, students develop a concrete understanding of how information systems and innovation can be used to solve real-world problems and create business value in a variety of industry settings. Core concepts are reinforced through individual and team-based assignments that emphasize independent exploration, knowledge synthesis and critical reflection.
     school: 'SCIS'
   IS111:
     name: 'Introduction to Programming'
-    description: 'In this course students acquire foundational computer programming concepts and skills through Python, a widely-used programming language. Upon successful completion of this course, the students will understand and be able to appropriately apply fundamental programming concepts including variables, functions, parameters, loops and conditions as well as basic data structures including arrays (lists in Python) and hash tables (dictionaries in Python) in simple applications.'
+    description: |
+      In this course students acquire foundational computer programming concepts and skills through Python, a widely-used programming language. Upon successful completion of this course, the students will understand and be able to appropriately apply fundamental programming concepts including variables, functions, parameters, loops and conditions as well as basic data structures including arrays (lists in Python) and hash tables (dictionaries in Python) in simple applications.
+    school: 'SCIS'
+  IS112:
+    name: 'Data Management'
+    description: |
+      This course will cover fundamentals of relational database theory, important data management concepts such as data modelling, database design, database implementation and searches in un-structured data (i.e., text) in current business information systems. A series of in-class exercises, tests, pop quiz and course project will help students understand covered topics. Students are expected to apply knowledge learned in the classroom to solve many problems based upon real-life business scenarios, while gaining hands-on experiences in designing, implementing, and managing database systems.
+    school: 'SCIS'
+  IS113:
+    name: 'Web Application Development I'
+    description: |
+      Web applications are commonly used today by governments, enterprises, and even individuals to provide information, market products, etc. Ability to create web applications is thus a crucial skill for graduates in Information Systems. This course is designed to equip students with the knowledge and skill to develop well-styled database-driven web applications. In the early weeks of the course, students would be introduced to web concepts and trained to build static web pages using HTML. Next, students will be taught on how to program dynamic web applications using PHP. Programming concepts that students have learned in Introduction to Programming (IS111) will be revisited (using PHP as the programming language), expanded, and used to allow students to program web applications that can adapt based on user inputs. After basic PHP programming has been introduced, students will then be taught on how they can connect to a database to store, retrieve, modify, and delete data. They can then design dynamic web pages that present different contents reflecting contents stored in a database as well as allow users to modify database contents through the webpages. In the latter weeks of the course, students will be introduced to more advanced PHP concepts including session management to allow for stateful interactive information exchange between users and a web application. Students will also be introduced on two ways of validating user inputs: server validation (using PHP) and client validation (using Javascript). Additionally, students will be introduced to methods to style their web pages using CSS and Bootstrap.
+    school: 'SCIS'
+  IS210:
+    name: 'Business Process Analysis and Solutioning'
+    description: |
+      In any organization, a business process is a key asset which is a collection of related, structured activities or tasks that produce a specific service or product (serve a particular goal) for a particular customer or customers. The business objective of an organization is often to increase process speed or reduce cycle time; to increase quality; or to reduce costs, such as labour, materials, scrap, or capital costs. In other words, a management decision to invest in business process modeling is often motivated by the need to improve the efficiency and effectiveness of the processes that exist within and across organizations. Business Process Analysis and Solutioning course presents the concepts and methodologies required to execute a methodical approach to translate business process change requirements into clear IT solutions. The course will cover business process modelling and analysis. The goal is to identify the gaps in the business workflow and recommend the solutions based on technology solutioning or restructuring the workflows for process optimization. The course will ensure that the students can smoothly translate enterprise business objectives into an effective IT solution architecture. Business process innovation has become a growing interest of several sectors due to the exponential growth of new technologies such as social media, big data, analytics, machine learning, IoTs and artificial intelligence. The students will be exposed to the various technologies and there role in process innovation. They will be able to analyse and review the innovated the business processes by studying some industry cases of digital transformation.
+    school: 'SCIS'
+  IS211:
+    name: 'Interaction Design and Prototyping'
+    description: |
+      Information systems are by necessity highly structured and predictable. Human life, on the other hand, is messy and unpredictable. When we try to fit human life into the structures expected by information systems, problems are inevitable. Interaction Design is a collection of tools for tackling these problems. When applied well, these tools can help you to build information systems that are useful, usable, and a pleasure to use.Interaction design is an iterative process. Each iteration has three stages: 
+
+      - **Observation:** We watch what users do to determine their needs. Watching is essential, because users often do not know or cannot express what they need. 
+
+      - **Prototyping:** We collect our design ideas into representations that users can interact with. Prototypes vary from very rough (low-fidelity) to more polished (high-fidelity). 
+
+      - **Evaluation:** We learn how well our design is meeting users’ needs. There are many evaluation strategies that vary by accuracy and cost of execution. Because this is an iterative process, we do not seek perfect solutions.
+
+      Instead, we focus early iterations on the most important problems, building inexpensive prototypes, and conducting fast evaluations. In later iterations, we use methods that take more effort to apply, but give more robust results.
+
+      This course will teach you how to lead a professional interaction design project. You and your project group will learn the interaction design process as you design an application of your own choosing.
+    school: 'SCIS'
+  IS212:
+    name: 'Software Project Management'
+    description: |
+      In this course, you will be exposed to web development processes and issues together with project management techniques. The focus is to allow you to experience software development and project management by working in a team to develop a web application.
+    school: 'SCIS'
+  IS213:
+    name: 'Enterprise Solution Development'
+    description: |
+      With the emergence of new technologies and evolution of existing ones, organizations are changing the way they build enterprise solutions. Rather than build monolithic applications, the current emphasis is on building solutions by leveraging existing functionality exposed as services. This approach to composing solutions using services follows the Service Oriented Architecture (SOA) paradigm, where applications are structured as a collection of loosely coupled services. In this course students will learn how to design and implement enterprise solutions using SOA using enterprise tools. The course will cover topics such as cloud computing, SOA, Enterprise Service Bus (ESB), XML, web services and micro-services architecture.
+    school: 'SCIS'
+  IS214:
+    name: 'Enterprise Solution Management'
+    description: |
+      This course explores the elements in the IT ecosystem that is required to support enterprise systems. It is divided into three main areas: maintenance, change and disaster prevention and recovery. Using common tools in the industry for ticketing, automated testing and DevOps, students are given hands-on experience as well as the understanding for robust delivery, efficient change and deep resilience. Teams will be given their own  system environment to maintain and protect. Real world use cases and examples are given to highlight the importance and complexity of managing applications in the enterprise. The course is spilt into the following sections:
+      - IT Operations Management
+      - Change Management
+      - Disaster prevention & recovery
+    school: 'SCIS'
+  IS215:
+    name: 'Digital Business Technology and Transformation'
+    description: |
+      This course introduces students to the fundamentals of digital business, technologies and the principles and practices that lead to successful digital transformation. With the exploitation of digital technologies such as artificial intelligence, cloud, analytics, mobile networks, social media, and the Internet of Things, organizations can develop a competitive edge that can boost efficiency and drive new business models that lead to an increase in the top and bottom lines. The course focuses on digital strategies using four components namely reimagining the business, re-evaluating value chain, reconnecting with customers and rebuilding the organisation. Challenges such as data security and governance, regulatory constraints, and future directions of digital business will be discussed. Besides helping students to understand the key concepts, tools and API services are introduced to implement the digital and analytics solutions. Real world examples and case studies of how organizations innovate and drive digital transformation will also be covered.
+    school: 'SCIS'
+  IS216:
+    name: 'Web Application Development II'
+    description: |
+      This course is designed to equip students with knowledge and skills to develop well-styled and responsive web applications that provide rich user experiences. Combining with the skills learnt in IS113 course, which focuses on developing database-driven web applications with basic web designs, after this course, the students will be equipped with full stack web development skills, who can build both front-end and back-end software.   In the introductory weeks of the course, the students will revisit HTML and server-side programming (PHP) concepts learnt in IS113. Then, the students will learn the concept of “Styling” the web pages. The students will learn a style sheet language called cascading style sheets (CSS) and learn how to separate the content and presentation of web pages, how to control web page layout, colors and fonts, how to bring multiple styles into a web page, how to control the layout of multiple web pages efficiently, etc. Next, the students will learn the concept of adding responsive behaviors to web pages to enhance the user experience. The students will learn a client-side programming language called JavaScript to make ordinary web elements like input boxes, buttons, forms, tables, menus interactive and animated. Furthermore, they will learn how to connect to API gateways and process data from external sources like RESTful web services so that they can build practical applications. In the latter weeks of the course, the students will be introduced to programming with frameworks. The students will learn how to use frameworks to build complex web applications in an efficient, scalable manner. More specifically, the students will be introduced to Bootstrap, a popular CSS framework for developing responsive website and introduced to Vue, a progressive JavaScript framework for building rich user interfaces.
     school: 'SCIS'
