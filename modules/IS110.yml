@@ -1,14 +1,20 @@
----
 ratings:
-  - version: 1.0
+  - version: 1
     difficulty: 0.5
     relevance: 0.5
     workload: 0.5
-    remarks: 'This module was terrible'
-  - version: 1.0
+    remarks: This module was terrible
+  - version: 1
     difficulty: 0.5
     relevance: 1
     workload: 0.5
     remarks: Test
     user_id: $2a$10$FF4yQtGgGvvfpCZD6h2hNODvIqYaeJV5QQVQCpIJt.UPFnKPdAS2i
     created_at: 2021-02-23T00:59:20.251Z
+  - difficulty: "0.5"
+    relevance: "1"
+    workload: "0.5"
+    remarks: test
+    created_at: 2021-02-23T01:06:33.966Z
+    user_id: $2a$10$ovRpLu06zXv85qVgDJQXdumkHP4t7yoMwDlHCEw6FlHI/tYNwoNiy
+    version: 1
