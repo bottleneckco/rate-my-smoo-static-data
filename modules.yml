@@ -1,5 +1,83 @@
 ---
 modules:
+  COR1201:
+    name: 'Calculus'
+    description: |
+      As a branch of mathematics, Calculus has been used to study the constantly moving and changing world around us. The concepts of Calculus are applied as the key tools in multiple fields, such as physics, engineering, economics, statistics, and medicine.
+
+      This course introduces a set of elementary functions, relevant properties, various forms of analysis, and principal concepts in Calculus, which enable students to flexibly deploy in multiple domains, contexts and spaces in the future. To enhance students’ skills of critical thinking and problem solving, the objective of the course is set to develop the students’ understanding and skills in analysing managerial problems, creating mathematical models, and applying them to find solutions for problems. Although the module is essentially mathematical in nature, a rigid mathematical treatment is avoided and the necessary mathematical concepts are derived from examples rather than through proofs.
+
+      By the end of this course, students will be able to understand the following topics and apply these concepts to solve application problems.
+
+      - Basic symbol manipulation skills
+      - Basic equation and inequality solving techniques
+      - Basic graphing techniques
+      - Techniques for differentiation
+      - Techniques for integration
+    school: 'CORE'
+  COR-STAT1202:
+    name: 'Introductory Statistics'
+    description: |
+      Both a science and an art, statistics lives in us, bridging economics to physics, accountancy to medicine, business to technology, geography to law, social science to politics – a veritable all-embracing giant. No discipline does well that disavows it and eschews it. Though many occupations may not require specialised statistics degrees, they demand at least working understanding of statistics, and able competency with statistical software and results management. This course equips you, students, the basics to a level of statistical competency and adaptability in analyses through manual means and Excel, with sound and responsible interpretation through practical cases and real-life projects.
+
+      By the end of this course, students will:
+
+      - Demonstrate fundamental principles and apply statistical analyses across different contexts;
+      - Perform data collection in ethical and responsible statistical field work and summarise data collected into meaningful interpretations;
+      - Diagnose problems and solve societal problems through correct statistical procedures, writing sound interpretations for use in practical decision-making with impact on the real world through large-scale, multi-disciplinary statistical projects.
+    school: 'CORE'
+  COR-STAT1203:
+    name: 'Introduction to Statistical Theory'
+    description: |
+      Statistics is an indispensable tool in almost every field and discipline. This course serves as a preparatory course in Statistics for a quantitative major at SMU such as Economics, Data Science, Actuarial Science, Finance, etc. The course pursues the philosophy of describing fundamental concepts of statistics relating theory to practice. Statistics is a mathematical science, and so a taste and aptitude for mathematical thinking is an important ingredient. However, it is neither necessary nor sufficient to have a strong mathematical background for students to enjoy and benefit from this course. Therefore, we encourage all students with some basic understanding of calculus and algebra to apply.
+
+      By the end of the course, students will:
+
+      - Have a sound mathematical foundation in probability and statistical inference methods;
+      - Have a basic understanding of statistical and probability models and how they can be used in practice;
+      - Be prepared for an upper-level course that requires Statistics and Probability as quantitative analysis tools.
+    school: 'CORE'
+  COR1701:
+    name: 'Critical Thinking in the Real World'
+    description: |
+      Increasingly in the contemporary job market, you will need to think objectively about a broad range of issues, even those unfamiliar to you. Recent surveys have indicated that the most important skills employers are looking for are critical thinking and problem solving skills. We will teach you how to get better at reasoning and arguing in a way that can be applied to any subject matter. This will allow you to be better at making decisions and solving complex problems.
+      Topics covered include evaluating arguments, constructing arguments, reconstructing arguments, formalizing arguments, clarifying meaning and identifying common mistakes in argument (fallacies).
+
+      By the end of the course you will:
+
+      - Improve your effectiveness in arguing for and developing a position on any issue.
+      - Strengthen your ability to clarify confusing ideas, texts, and situations.
+      - Acquire several formal tools useful for effective decision-making.
+      - Increase your ability to plan ahead and exercise reliable judgment.
+      - Increase your mental agility and adaptability.
+      - Develop your ability to present ideas clearly and persuasively.
+    school: 'CORE'
+  COR-IS1702:
+    name: 'Computational Thinking'
+    description: |
+      Computational Thinking equips students to tackle complex computational problems; it trains students to design solutions to solve those problems using a computer program. It draws upon concepts from mathematics and computer science – more precisely, discrete mathematics, data structures and algorithm design. This course will hone students’ analytical skills as they are challenged to think abstractly and computationally. Their minds will be open to the wonders of computing, as they go behind the scene to unravel the fundamental analytics that empower social networking sites, consulting agencies and service companies.
+
+      By taking this course, the student will:
+
+      - Discover the science of computing (or How to think like a Computer Scientist)
+      - Model problems and learn practical problem-solving techniques to tackle complex computational problems (beyond what a spreadsheet is capable of solving)
+      - Apply problem-solving techniques to develop more elegant and efficient programs
+      - Learn to write programs to represent and manipulate with complex data objects
+      - Understand the challenge of scale, not only in dealing with large data sets, but also in appreciating the nature of computing and computability
+    school: 'CORE'
+  COR1703:
+    name: 'Managing in a VUCA Context'
+    description: |
+      The dynamic and fast changing nature of our world today is best described by VUCA, a term coined by the US Army War College. VUCA stands for Volatile, Uncertain, Complex and Ambiguous. The Arab Spring saw a change of government in countries like Tunisia, Egypt, Libya and Yemen. Once powerful countries in Europe are now fighting bankruptcy. The growth of the developing world which was taken for granted has begun to slow down. Even companies that were synonymous with their product categories just a few years ago are now no longer in existence. Kodak, the inventor of the digital camera had to wind up its operations, Borders, once the second largest US bookstore, has shut down due to their inability to evolve their business models with the changing times.  With such momentous changes happening in the world today, this course prepares the students to better understand the complexity and difficulties in reacting to the ambiguity inherent in those changes. This course helps students to understand the tensions in a given situation and how they need to think through a problem from multiple dimensions. The course aims to give students an insight into the mega trends and forces that are impacting their world. Ask what are some of the causes of these trends and their business implications? What can future managers like themselves do about understanding these changing trends, and why they need to address, appreciate, adapt and attempt to manage these changes in their ecosystem? The course aims to introduce some basic VUCA concepts, in order to broaden their world view of management and nature of managing complex problems. The first half of the course introduces some of these trends, while the second half provides tools and possible frameworks to deal with the VUCA aspects that they will face in the future.
+
+      By the end of this course, students will be able to:
+
+      - Describe and interpret some of the trends impacting our world and explore their ramifications for the world of business.
+      - Explain the factors that underlie these increasingly complex problems.
+      - Understand the larger context of a problem, while examining some of the details in a more focused way.
+      - Learn the ability to identify and analyse a problem from various perspectives and develop a mind-set to appreciate the complex, uncertain and ambiguous nature of problems.
+      - Developing your own problem-solving mind-set and building future oriented capabilities
+    school: 'CORE'
   IS110:
     name: 'Information Systems and Innovation'
     description: |
@@ -67,4 +145,116 @@ modules:
     name: 'Web Application Development II'
     description: |
       This course is designed to equip students with knowledge and skills to develop well-styled and responsive web applications that provide rich user experiences. Combining with the skills learnt in IS113 course, which focuses on developing database-driven web applications with basic web designs, after this course, the students will be equipped with full stack web development skills, who can build both front-end and back-end software.   In the introductory weeks of the course, the students will revisit HTML and server-side programming (PHP) concepts learnt in IS113. Then, the students will learn the concept of “Styling” the web pages. The students will learn a style sheet language called cascading style sheets (CSS) and learn how to separate the content and presentation of web pages, how to control web page layout, colors and fonts, how to bring multiple styles into a web page, how to control the layout of multiple web pages efficiently, etc. Next, the students will learn the concept of adding responsive behaviors to web pages to enhance the user experience. The students will learn a client-side programming language called JavaScript to make ordinary web elements like input boxes, buttons, forms, tables, menus interactive and animated. Furthermore, they will learn how to connect to API gateways and process data from external sources like RESTful web services so that they can build practical applications. In the latter weeks of the course, the students will be introduced to programming with frameworks. The students will learn how to use frameworks to build complex web applications in an efficient, scalable manner. More specifically, the students will be introduced to Bootstrap, a popular CSS framework for developing responsive website and introduced to Vue, a progressive JavaScript framework for building rich user interfaces.
+    school: 'SCIS'
+  ANLY104:
+    name: 'Analytics Foundation'
+    description: |
+      - Students will be introduced to the fundamentals of business analytics including the formulation of a business problem and developing a data driven approach to solve it
+      - Build basic understanding of key statistical concepts and commonly used data mining techniques in analytics
+      - Students will also get an opportunity to get started with popular industry tools for data exploration and prepare data for analytics
+      - By the end of this course students will be able to understand and appreciate the application of analytics in their area of specialisation.
+    school: 'SCIS'
+  IS424:
+    name: 'Data Mining & Business Analytics'
+    description: |
+      Data mining consists of a wide range of data analysis techniques that can be applied to large datasets to discover patterns, trends and other forms of knowledge embedded in the data. In the commercial world, data mining is often conducted on enterprise data stored in relational databases to help managers make informed decisions so as keep businesses competitive and attuned to changing market conditions. With the recent advances in big data generation and collection, new data types such as text, Web, spatial, and temporal data have emerged creating new opportunities for mining knowledge from data for business intelligence. This course provides an introduction to the fundamental issues and basic techniques of data mining. The topics covered include data mining process, data preprocessing, data mining techniques and data mining evaluation. In particular, the use of data mining in support business intelligence and decision making will be covered through labs, projects and case studies. Students are expected to learn data mining and its use in business intelligence through acquiring the basic data mining concepts and techniques, using them to explore data, and deriving useful knowledge patterns from the data through hands-on programming and experimentation that involve some industry strength data mining software packages.
+    school: 'SCIS'
+  IS415:
+    name: 'Geospatial Analytics & Applications'
+    description: |
+      In this globalising and competitive business environment, the value of location as a business measure is fast becoming an important consideration for organisation. GIS with its capability to capture, manage, display, and analyse business information spatially is emerging as a location intelligence tool. This course provides students with an introduction to the concepts, principles and methods of geospatial analytics and their practical applications of geospatial analytics in real world operations. Emphasis will be placed on (i) locating, acquiring and integrating business data into geospatial data repository, (ii) understand the principles and methodologies of the geocoding process, (iii) become familiar with geovisualisation, spatial analysis and location modelling techniques, and (iv) explore the technologies and possibilities of server-based and/or web-based spatially enabled decision support systems.
+    school: 'SCIS'
+  IS446:
+    name: 'Managing Customer Relations with Analytics : Asian Insights'
+    description: |
+      The better any organization can manage the relationship with its customers, the more successful it will become. IT systems targeting the problems of dealing with customers are growing in popularity. Customer Relationship Management (CRM) is not just the use of a technology, or a hardcoded business process, it is a management strategy to help organizations understand and learn about customer behaviors, needs, preferences and expectations in order to improve and maintain a strong relationship with them. Managing Customer Relationship with Analytics: Asian Insights presents the concepts and methodologies required to execute a methodical approach to apply analytics and CRM principles into a business. The course will cover the customer-centric business culture, and the customer relationship process to attract, convert, retain and delight customers with the help of IT tools.
+    school: 'SCIS'
+  IS434:
+    name: 'Social Analytics and Applications'
+    description: |
+      In today’s globally connected, online and mobile world, social media platforms are fast becoming the dominant means of communication and it is revolutionizing the way businesses communicate with their customers. Many popular social media platforms such as Facebook and Twitter allow for instant, real-time multi-way communication. Collecting and analysing data from multiple online sources require an Information Technology infrastructure. The data collected from online sources create a gold mine for businesses that want to understand and predict consumer and market behaviour. By leveraging sophisticated computing technologies, big data analytics can produce actionable insights valuable to the core operations of the business.
+
+      This course will explore emerging methods and applications for understanding online user behaviour on popular social media platforms. Students will be exposed to a variety of real-world business cases, a collection of data analytics tools, best practices and hands-on exercises. Students will learn how to 1) identify analytics problems, 2) use data analytics tools and identify types of analysis to be performed, and 3) close the loop (the process of taking the analysis results and interpreting it contextually).
+    school: 'SCIS'
+  IS450:
+    name: 'Text Mining and Language Processing'
+    description: |
+      Given the dominance of text information over the Internet, mining high-quality information from text becomes increasingly critical. The actionable knowledge extracted from text data facilitates our life in a broad spectrum of areas, including business intelligence, information acquisition, behavior analysis and decision making process. In this course, we will cover important topics in text mining including: document representation, text categorization and clustering, sentiment analysis, probabilistic topic models and text visualization. Text mining techniques adopt the models from research areas such as Statistics, NLP and Linguistics. We will also focus on basic natural language processing techniques, language parsing and analysis and evaluation techniques.
+    school: 'SCIS'
+  IS428:
+    name: 'Visual Analytics for Business Intelligence '
+    description: |
+      Data analysis and communications can be fun! With visual analytics techniques and tools, everyday data analysts from various disciplines such business, economic, sociology, political science and public policy can now synthesize information and derive insight from massive, dynamic, ambiguous, and often conflicting data without having to deal with complex statistical formulas and programming. Many companies and organization took notice when Gartner cited visual analytics as one of the top five trends transforming business intelligence. In this course, students learn how to use data visualization and interactive analytic tools and techniques to interact with data of different formats from various sources, explore the expected relationships and discover unexpected correlations and patterns. You will also acquire the skills for building cutting edge visual analytics application based on principles and best practices from graphic design, visual arts, perceptual psychology, cognitive science and interfaces design.
+    school: 'SCIS'
+  IS425:
+    name: 'Digital Transformation Strategy'
+    description: |
+      This course addresses the business aspect of IT and students will learn how to apply IT to gain business value. We shall discuss key IT management issues faced by CIOs and Business leaders and how to become effective change agents– effecting changes in the organization, processes and people. We shall also cover aspects of IS management & best practices, and apply them to solve real life case problems, as well as to propose IT strategy to address the specific business challenge given by a sponsoring organization.
+
+      Topics will vary from year to year, enabling the instructor to include a combination of the latest IT trends (eg. Mobile & Social Media) and emerging issues at the intersection of IT and management. along with some of the important fundamentals.
+
+      Students will have the opportunity to learn from leaders (CxO) in the industry on their views on specific IT management issue, best practices, and how to be successful in their career (not limited to IT career). This course will benefit all students who aspire to be in an executive or management position, be it in IT or business functions such as finance, marketing, HR, etc.
+    school: 'SCIS'
+  IS421:
+    name: 'Enterprise Analytics for Decision Support'
+    description: |
+      In the era of Big Data, IT systems contain a lot of data that provide management with good managerial insights about business operations and customers. How can such data and insights turn into actionable decisions? More precisely, how may existing policies, plans and schedules be constantly updated to accommodate new requests and events under severe time constraints? Such requirements are becoming increasingly common in the service industry (transport and logistics, health-care, hospitality, to name a few). In this course, we discuss the inner working of such analytics engines embedded in enterprise systems that provide optimized managerial decision making and decision support. Students will acquire skills for thinking about, understanding, modeling and solving such decision problems. This course complements data analytics courses which are concerned with understanding data. Data + Decisions form a holistic picture for coping with planning and operational problems in business. This is a problem-solving course. And unlike a traditional course on Optimization and Algorithm Design, this course will offer a real-world problem-centric rather than algorithm-centric approach.
+    school: 'SCIS'
+  IS412:
+    name: 'Enterprise Business Solutions'
+    description: |
+      The Enterprise Business Solutions Course is a SMU-X course that will be delivered in collaboration with SAP Digital Labs. This SMU-X course offers an experiential learning opportunity that allows students to translate classroom knowledge and theory into practical solutions for a real organization. Through this student consultancy project, students learn how to work with industry professionals and help come up with innovative solutions for real world problems. The student teams will work under the guidance from the faculty and project sponsor mentors, from problem definition to final client presentation. The course will focus on helping students gain a good understanding of the concepts related to building innovative solutions by leveraging the SAP Cloud Platform. Students will also gain hands-on experience in building solution using the SAP Cloud Platform along with other related technology services such as IoT, analytics and machine learning.
+    school: 'SCIS'
+  CS462:
+    name: 'Internet of Things: Technology and Applications'
+    description: |
+      This course will equip students with the state-of-the-art in Internet-of-Things technologies, to enable them to conceptualize practical IoT systems to realize useful applications. Students will learn how to:
+
+      - identify and translate real needs into system requirements and constraints
+
+      - identify suitable IoT technologies to realize a practical system; and
+
+      - build simple proof-of-concept applications, through real-world examples
+    school: 'SCIS'
+  IS435:
+    name: 'Systems for Intelligent Cities'
+    description: |
+      This course aims to focus on Smart Cities primarily, and will introduce the application - Big Data analysis - to enhance Smart City design as a secondary aim. As the major big cities in the world become more popular like economic powerhouses, more people would inevitably flock to live in them. All big cities face similar high population density and quality of living challenges - so how do we pack more people into a limited city space while still maintaining the same quality of living? This is where Smart City design concepts and enabling technologies become relevant and important.
+    school: 'SCIS'
+  IS444:
+    name: 'Digital Banking Enterprise Architecture'
+    description: |
+      This course examines the role of Enterprise Architecture in implementing a bank’s digital business strategy while minimizing the overall technology cost for the bank.  In today’s market where the speed of doing business is rapidly increasing, and customers are becoming increasingly more sophisticated, banks are challenged to provide faster and better digital services, anytime, anywhere.  Technology, as a business enabler, has become a key consideration of any bank’s strategy. The adoption of enterprise platforms such as Service-Oriented Architecture (SOA), Business Process Management (BPM), Business Rules Management System (BRMS), Master Data Management (MDM), and Enterprise Data Warehouse (EDW) will improve a bank’s competitive advantage with measurable results; increased revenue, speed to market, product & service innovation, improved agility, and reduced cost. Emphasis is placed throughout this course on analysing real-world situations using case studies, in particular large-scale change scenarios such as; core banking system replacements, and bank mergers whereby multiple vendor products need to coexist. Hands-on lab exercises and project assignments will include the assembly of prototype banking solutions which invoke the API of SMU Teaching Bank (SMU tBank).
+    school: 'SCIS'
+  IS445:
+    name: 'Corporate Banking Technology & Smart Contracts'
+    description: |
+      This course explores corporate banking and smart contracts. It begins by describing corporate customers and the financial services that they need. These considerations are examined in different corporate business contexts along with how blockchain is being applied. Specifically, the product areas of corporate lending, cash management & payments, trade finance, foreign exchange and corporate treasury are covered. The later part of the course covers hands-on development, deployment and execution of smart contracts using Ethereum. Emphasis is placed throughout the course on analysing real-world situations using case studies and gaining hands-on experience with banking systems.
+    school: 'SCIS'
+  IS430:
+    name: 'Digital Payments & Innovation'
+    description: |
+      A payment is a transfer of monetary value. Under the hood of payment transactions are the products, the companies, the legal framework, the technology, and the financial institutions we rely on to facilitate the timely and uninterrupted exchange of value from one entity to another. In times of crisis, the importance of having a robust, efficient, and secure national and even global payment systems that market participants can rely on is even more pronounced. A payment system (legal definition) is an arrangement which supports the transfer of value in fulfilment of a monetary obligation. Simply put, a payment system consists of the mechanisms - including the institutions, people, rules and technologies - that make the exchange of monetary value possible. This course “Digital Payments & innovations” takes an overall look at the payment landscape viewing consumer, business and wholesale payments. It presents a depiction of the changing environment and delineates the dynamic payment ecosystem, helping us understand the possibilities as well as the limits to change. It covers payments for individuals, organizations and banks, and all of their possible permutations. The course is aimed at students who are interested in both domestic’ and cross border payment systems, particularly those who aspire to; a) work in a bank’s T&O (technology and operations) as an architect, business analyst or product manager, or b) work in a non-bank FinTech provider of alternative payment services.
+    school: 'SCIS'
+  IS423:
+    name: 'Financial Markets Processes & Technology'
+    description: |
+      Firms operating in the financial markets are among the most intensive and innovative users of information.  Over the years, voice-based trading has been replaced with electronic channels linking up market participants from across the globe. Traders are equipped with real-time price and market information, and are able to perform complex data analytics to advance their competitive edge. At securities exchanges, open-cry trading floors have been replaced by automated trade matching and straight-thru-processing (STP) has replaced error-prone paper-based settlements processing resulting in shorter settlement cycles.
+
+      This course provides an introduction to the financial markets products and services, markets and market participants.  Focus will be placed on the foreign exchange and equities products and the processes that support the trading and settlement of these instruments.  The course will include the architecture and design of the IT application systems that support these processes. It will cover how the deployment of STP has enabled efficiencies and eliminated risks by the end-to-end streamlining of operations within and across firms from trade initiation to settlement.
+
+      Upon completion of the course, students will have gained knowledge on:
+
+      The following aspects of the FX & EQ markets:
+
+      Markets & market participants
+      FX & EQ product
+      Trade lifecycle (value chains/ business processes)
+      The linkages between business value and the processes and systems
+      Straight-thru-processing (STP) benefits & deployment for FX Spot post trade settlement processing through the design and development of a working system as part of the term project
+    school: 'SCIS'
+  IS419:
+    name: 'Retail Banking & Mobile Technology'
+    description: |
+      The Financial Services Industry was among the early adopters of IT in delivering banking products and services, and in achieving operation efficiencies and increased revenues through new opportunities enabled by IT. This course introduces the retail banking environment and architecture. It delves into some of the key processes that span the front and back office of a bank and the associated banking products that require IT solutions to enable these processes. The curriculum also includes core banking as well as delivery channels such as ATM, internet and IVRS. Emphasis will be placed on Mobile Technology due to the FINTECH focus of the upcoming revamped course for AY 2017-2018 Topics such as FINTECH, banking security, customer and credit analytics, emerging technologies and industry trends will also be covered.
     school: 'SCIS'
