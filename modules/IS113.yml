@@ -1,0 +1,9 @@
+---
+ratings:
+  - version: 1.0
+    difficulty: 0.5
+    relevance: 1
+    workload: 0.5
+    remarks: test1
+    user_id: $2a$10$/jzWzQtOQir0hEt7aO7EJ.L/orbGnLTZJ824tDTYdisaTm3nQRj7S
+    created_at: 2021-02-09T03:10:58.333Z

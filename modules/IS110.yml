@@ -1,0 +1,7 @@
+---
+ratings:
+  - version: 1.0
+    difficulty: 0.5
+    relevance: 0.5
+    workload: 0.5
+    remarks: 'This module was terrible'
